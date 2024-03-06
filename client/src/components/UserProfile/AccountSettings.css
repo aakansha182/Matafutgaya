@@ -1,0 +1,159 @@
+.asaccountsettings {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(234, 81, 34, 0.434); /* Increased transparency */
+    background-image: linear-gradient(to right, #e69a36 0%, #e4803e 100%);
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    color: #ffffff; /* Adjusted for better readability */
+  }
+  
+  .asaccountsettings h1 {
+    color: #ffffff;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center; /* Centering the title */
+  }
+  
+  .asaccountsettings div {
+    margin-bottom: 15px;
+    position: relative; /* For positioning the label and input */
+  }
+  
+  .asaccountsettings label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #ffffff; /* Ensuring labels are white for readability */
+  }
+  
+  .asaccountsettings input[type="text"],
+  .asaccountsettings input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #ffffff; /* White border */
+    background-color: rgba(255, 255, 255, 0.2); /* Slightly transparent background */
+    border-radius: 4px;
+    color: #ffffff; /* White text */
+    box-sizing: border-box;
+  }
+  
+  .asaccountsettings input[type="text"]:focus,
+  .asaccountsettings input[type="file"]:focus {
+    border-color: #a8ff78; /* Brighter focus color */
+    outline: none;
+  }
+  
+  button.acmainbutton1 {
+    display: block; /* Ensures the button is treated as a block-level element */
+    width: 50%; /* Adjust the width as needed */
+    max-width: 300px; /* Optional: set a max-width if you want to limit button's width */
+    padding: 10px 0;
+    background-color: #a8ff78;
+    color: #006400;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin: 20px auto;
+  }
+  
+  button.acmainbutton1:hover {
+    background-color: #e1500c; /* Darker green on hover */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .asaccountsettings {
+      margin: 10px;
+      padding: 10px;
+    }
+  
+    .asaccountsettings h1 {
+      font-size: 20px;
+    }
+  }
+  
+
+  .pcaccountsettings {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(234, 81, 34, 0.434);
+    background-image: linear-gradient(to right, #e65336 0%, #e49c3e 100%);
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+  }
+  
+  .pcaccountsettings h1.pcmainhead1 {
+    color: #ffffff;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .pcform-group {
+    margin-bottom: 15px;
+  }
+  
+  .pcform-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  .password-input-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    padding: 0 8px; /* Adjusted padding for a narrower container */
+    max-width: 70%; /* Reduce max width to decrease size sideways */
+    margin: 0 auto; /* Center the container */
+  }
+  
+  .password-input-container input {
+    flex-grow: 1;
+    padding: 8px;
+    font-size: 18px; /* Increased font size for larger input text */
+    border: 2px solid #ffffff;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+    outline: none;
+  }
+  
+  .eye-icon {
+    cursor: pointer;
+    color: #ffffff;
+  }
+  
+  button.pcmainbutton1 {
+    display: block; /* Ensures the button is treated as a block-level element */
+    width: 50%; /* Adjust the width as needed */
+    max-width: 300px; /* Optional: set a max-width if you want to limit button's width */
+    padding: 10px 0;
+    background-color: #a8ff78;
+    color: #006400;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin: 20px auto; /* Centers the button horizontally and adds vertical spacing */
+  }
+  
+  button.pcmainbutton1:hover {
+    background-color: #7eca9c;
+  }
+  
+  
+  .pcaccountsettings p {
+    color: red;
+    text-align: center;
+  }
+  

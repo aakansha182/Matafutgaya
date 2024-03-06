@@ -1,0 +1,98 @@
+.comment-profile-pic {
+  width: 50px; /* adjust as necessary */
+  height: 50px; /* adjust as necessary */
+  border-radius: 50%;
+  overflow: hidden; /* this will ensure that the image is contained within the circular div */
+}
+
+.profile-photo {
+  width: 100%;
+  height: auto; /* maintain aspect ratio */
+  display: block; /* remove any extra space below the image */
+}
+/* BookDetails.css */
+
+.comment-form-container {
+  display: flex; /* This enables flexbox */
+  gap: 10px; /* This creates space between the flex items */
+  align-items: center; /* This centers the items vertically */
+  margin-bottom: 10px; /* Space below the container */
+  max-width: 600px; /* Set a maximum width */
+  margin-left: auto; /* Align container to the right */
+  margin-right: auto; /* Align container to the left */
+}
+/* Comment Input Styling */
+.input-class {
+  flex-grow: 10; /* This allows the input to grow and fill the space */
+  padding: 5px; /* Reduced padding */
+  align-items: center;
+  border: 2px solid #ffffff;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 3px #dddddd1f;
+  font-size: 12px; /* Reduced font size */
+  line-height: 18px; /* Adjusted line height */
+  color: #ffffff;
+  background-color: #dbd2d267;
+  width: 1500px;
+
+  /* height: 12px; */
+}
+
+/* Button Styling */
+.button-class {
+  padding: 9px 15px; /* Adjusted padding to match the input field's height */
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px; /* Adjusted font size to match the input field's text */
+  transition: background-color 0.3s ease;
+}
+
+.button-class:hover {
+  background-color: #0056b3; /* A darker shade for hover effect */
+}
+
+/* Add some space around the button */
+.button-container {
+  display: flex;
+  justify-content: flex-end; /* Align button to the right */
+  margin-top: 10px;
+}
+/* Assuming you are using text-based stars, like ★ */
+.star-rating {
+  font-size: 24px; /* or any size you want */
+  color: #ff4507; /* Standard star color, or choose your own */
+}
+
+/* If your stars are images, you might do something like this: */
+.star-rating img {
+  width: 30px; /* or any size you want */
+  height: auto;
+}
+
+/* For the "Your Rating" text */
+.your-rating-text {
+  font-size: 18px; /* or any size you want */
+  margin-top: 5px; /* add a little space above the text */
+  color: #9de304; /* or whatever color you want */
+}
+/* BookDetails.css */
+.favorite-button {
+  padding: 10px 20px;
+  background-color: #ff4081; /* Arbitrary color; adjust as needed */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  display: block; /* Ensure it's a block element to take full width */
+  margin-top: 25px; /* Increase the top margin to add more space */
+  width: auto; /* Adjust width as needed */
+}
+
+.favorite-button:hover {
+  background-color: #e81e63; /* Darker shade for hover effect */
+}

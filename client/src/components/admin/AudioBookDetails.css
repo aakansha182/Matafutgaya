@@ -1,0 +1,17 @@
+.star-rating {
+    font-size: 24px; /* or any size you want */
+    color: #ff4507; /* Standard star color, or choose your own */
+  }
+  
+  /* If your stars are images, you might do something like this: */
+  .star-rating img {
+    width: 30px; /* or any size you want */
+    height: auto;
+  }
+  
+  /* For the "Your Rating" text */
+  .your-rating-text {
+    font-size: 18px; /* or any size you want */
+    margin-top: 5px; /* add a little space above the text */
+    color: #9de304; /* or whatever color you want */
+  }
